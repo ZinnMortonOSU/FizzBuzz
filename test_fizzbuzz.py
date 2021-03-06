@@ -18,5 +18,10 @@ class TestFizzBuzz(unittest.TestCase):
         self.assertEqual(fizzbuzz.fizzbuzzNum(20), "Buzz")
         self.assertEqual(fizzbuzz.fizzbuzzNum(100), "Buzz")
 
+        #Multiples of 3 and 5
+        self.assertEqual(fizzbuzz.fizzbuzzNum(15), "FizzBuzz")
+        self.assertEqual(fizzbuzz.fizzbuzzNum(30), "FizzBuzz")
+        self.assertEqual(fizzbuzz.fizzbuzzNum(90), "FizzBuzz")
+
 if __name__ == '__main__':
     unittest.main(verbosity=2)
